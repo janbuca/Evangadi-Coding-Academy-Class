@@ -281,6 +281,25 @@ myFourth([5,"firew",false]);
  }
  var num1 = inc(15);
  console.log(num1);
+
+//  Question 8
+//    ● Write a function that takes the base and height of a triangle and returns its area
+ function triArea(base,height){
+    let area=0.5*base*height;
+    return area;
+}
+console.log(triArea(10,5));
+
+function areaTri(width, height) {
+  console.log("Plase Calculate the area of the 'Triangle'")
+
+  if ((width <= 0|| height <=0) || (typeof  width !== "number" || typeof height !== "number")) {
+      return "You Entring is wrong a Number";
+  }else{
+      return ((width * height) / 2);
+  }
+}
+console.log(areaTri(5, 4));
   
 
   
