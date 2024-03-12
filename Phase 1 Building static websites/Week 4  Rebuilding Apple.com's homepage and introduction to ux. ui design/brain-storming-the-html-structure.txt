@@ -1,0 +1,253 @@
+<div class="outer-wrapper">
+	
+</div>
+
+outer wrapper - div 
+	header wrapper - header
+		internal wrapper - div 
+			logo wrapper - div 
+				- Display logo image here 
+				- Linked to the home page 
+			cloase logo wrapper
+
+			links wrapper - div 
+				- Display a list of links here 
+				- link them to the proper page 
+			close links wrapper
+
+			search wrapper - div 
+				- Display search icon image here 
+				- Link to the search page 
+			close search wrapper 
+
+			cart wrapper - div
+				- Display cart image here 
+				- link to the cart page 
+			close cart wrapper
+
+		close internal wrapper 
+	close header wrapper
+
+	main highlight wrapper - section
+		internal wrapper - div 
+			model - div
+			close model 
+
+			title - div 
+			close title 
+
+			brief description - div 
+			close brief description 
+
+			links wrapper - div 
+				- List of links 
+				- Linked to proper area 
+			close links wrapper 
+
+			main image wrapper - div 
+				- Display image 
+			close main image wrapper 
+
+		close internal wrapper
+	close main highlight wrapper  
+
+	second hightlight wrapper - section
+		internal wrapper - div 
+			title wraper - div 
+			close title wrapper 
+
+			description wrapper - div 
+			close description wrapper 
+
+			price wrapper - div 
+			close price wrapper
+
+			main image wrapper - div 
+				- Display image 
+			close main image wrapper 
+
+		close internal wrapper
+	close second highlight wrapper
+
+	third highlight wrapper - section
+		internal wrapper - div 
+			title wraper - div 
+			close title wrapper 
+
+			description wrapper - div 
+			close description wrapper 
+
+			price wrapper - div 
+			close price wrapper
+
+			main image wrapper - div 
+				- Display image 
+			close main image wrapper 
+
+		close internal wrapper
+	close third highlight wrapper 
+
+	fourth heghlight wrapper - section
+		left side wrapper - div 
+			top logo wrapper - div
+				logo wrapper - div 
+				close logo wrapper
+
+				series wrapper - div 
+				close series wrapper 
+			close top logo wrapper 
+
+			description wraper - div 
+			close description wraper
+
+			links wrapper - div 
+				- list of links 
+			close links wrapper
+
+			product image wrapper - div 
+			close product image wrapper 
+		close left side wrapper 
+
+		right side wrapper - div 
+			top logo wrapper - div
+				logo wrapper - div 
+				close logo wrapper
+
+				series wrapper - div 
+				close series wrapper 
+			close top logo wrapper 
+
+			description wraper - div 
+			close description wraper
+
+			links wrapper - div 
+				- list of links 
+			close links wrapper
+
+			product image wrapper - div 
+			close product image wrapper 
+		close right side wrapper 	
+	close fourth heghlight wrapper
+
+	fifth heghlight wrapper - section 
+		left side wrapper - div 
+			top logo wrapper - div
+				logo wrapper - div 
+				close logo wrapper
+
+				series wrapper - div 
+				close series wrapper 
+			close top logo wrapper 
+
+			description wraper - div 
+			close description wraper
+
+			links wrapper - div 
+				- list of links 
+			close links wrapper
+
+			product image wrapper - div 
+			close product image wrapper 
+		close left side wrapper 
+
+		right side wrapper - div 
+			top logo wrapper - div
+				logo wrapper - div 
+				close logo wrapper
+
+				series wrapper - div 
+				close series wrapper 
+			close top logo wrapper 
+
+			description wraper - div 
+			close description wraper
+
+			links wrapper - div 
+				- list of links 
+			close links wrapper
+
+			product image wrapper - div 
+			close product image wrapper 
+		close right side wrapper 	
+	close fifth heghlight wrapper
+
+	sixth heghlight wrapper - section 
+		left side wrapper - div 
+			top logo wrapper - div
+				logo wrapper - div 
+				close logo wrapper
+
+				series wrapper - div 
+				close series wrapper 
+			close top logo wrapper 
+
+			description wraper - div 
+			close description wraper
+
+			links wrapper - div 
+				- list of links 
+			close links wrapper
+
+			product image wrapper - div 
+			close product image wrapper 
+		close left side wrapper 
+
+		right side wrapper - div 
+			top logo wrapper - div
+				logo wrapper - div 
+				close logo wrapper
+
+				series wrapper - div 
+				close series wrapper 
+			close top logo wrapper 
+
+			description wraper - div 
+			close description wraper
+
+			links wrapper - div 
+				- list of links 
+			close links wrapper
+
+			product image wrapper - div 
+			close product image wrapper 
+		close right side wrapper 	
+	close sixth heghlight wrapper
+
+	footer wrapper - footer
+		upper text container - div 
+		close upper text container 
+
+		bottom links wrapper 
+			links wrapper 1 - div 
+			close links wrapper 1 
+			
+			links wrapper 2 - div 
+			close links wrapper 1 
+			
+			links wrapper 3 - div 
+			close links wrapper 1 
+			
+			links wrapper 4 - div 
+			close links wrapper 1 
+			
+			links wrapper 5 - div 
+			close links wrapper 1 
+		close bottom links wrapper 
+
+		my apple wrapper - div 
+		close my apple wrapper 
+
+		copyright wrapper - div 
+			copyright - div 
+			close copyright
+
+			footer links terms - div 
+			close footer links terms 
+
+			footer country - div 
+			close footer country 
+		close copyright wrapper 
+	close footer wrapper
+
+close outer wrapper  
+

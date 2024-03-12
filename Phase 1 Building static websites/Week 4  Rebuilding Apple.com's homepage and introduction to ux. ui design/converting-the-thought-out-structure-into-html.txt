@@ -1,0 +1,246 @@
+<div class="outer-wrapper"> 
+	<header class="header-wrapper">
+		<div class="internal-wrapper"> 
+			<div id="logo-wrapper"> 
+				- Display logo image here 
+				- Linked to the home page 
+			</div>
+
+			<div class="links-wrapper"> 
+				- Display a list of links here 
+				- link them to the proper page 
+			</div>
+
+			<div class="search-wrapper"> 
+				- Display search icon image here 
+				- Link to the search page 
+			</div> 
+
+			<div class="cart-wrappern abebe ">
+				- Display cart image here 
+				- link to the cart page 
+			</div>
+		</div>
+	</header>
+
+	<section class="main-highlight-wrapper">
+		<div class="internal-wrapper"> 
+			<div class="model">
+			</div>
+
+			<div class="product-title">
+			</div>
+
+			<div class="brief-description">
+			</div>
+
+			<div class="links-wrapper">
+				- List of links 
+				- Linked to proper area 
+			</div>
+
+			<div class="main-image-wrapper">
+				- Display image 
+			</div>
+
+		</div>
+	</section> 
+
+	<section class="second-hightlight-wrapper">
+		<div class="internal-wrapper">
+			<div class="title-wraper">
+			</div> 
+
+			<div class="description-wrapper">
+			</div>
+
+			<div class="price-wrapper">
+			</div>
+
+			<div class="main-image-wrapper">
+				- Display image 
+			</div>
+		</div>
+	</section>
+
+	<section class="third-highlight-wrapper">
+		<div class="internal-wrapper">
+			<div class="title-wraper">
+			</div> 
+
+			<div class="description-wrapper">
+			</div>
+
+			<div class="price-wrapper">
+			</div>
+
+			<div class="main-image-wrapper">
+				- Display image 
+			</div>
+		</div>
+	</section>
+
+
+	<section class="fourth-heghlight-wrapper">
+		<div class="left-side-wrapper">
+			<div class="top-logo-wrapper">
+				<div class="logo-wrapper">
+				</div>
+
+				<div class="series-wrapper">
+				</div>
+			</div>
+
+			<div class="description-wraper">
+			</div>
+
+			<div class="links-wrapper">
+				- list of links 
+			</div>
+
+			<div class="product-image-wrapper">
+			</div>
+		</div>
+
+		<div class="right-side-wrapper">
+			<div class="top-logo-wrapper">
+				<div class="logo-wrapper">
+				</div>
+
+				<div class="series-wrapper">
+				</div>
+			</div>
+
+			<div class="description-wraper">
+			</div>
+
+			<div class="links-wrapper">
+				- list of links 
+			</div>
+
+			<div class="product-image-wrapper">
+			</div>
+		</div>	
+	</section>
+
+	<section class="fifth-heghlight-wrapper"> 
+		<div class="left-side-wrapper">
+			<div class="top-logo-wrapper">
+				<div class="logo-wrapper">
+				</div>
+
+				<div class="series-wrapper">
+				</div>
+			</div>
+
+			<div class="description-wraper">
+			</div>
+
+			<div class="links-wrapper">
+				- list of links 
+			</div>
+
+			<div class="product-image-wrapper">
+			</div>
+		</div>
+
+		<div class="right-side-wrapper">
+			<div class="top-logo-wrapper">
+				<div class="logo-wrapper">
+				</div>
+
+				<div class="series-wrapper">
+				</div>
+			</div>
+
+			<div class="description-wraper">
+			</div>
+
+			<div class="links-wrapper">
+				- list of links 
+			</div>
+
+			<div class="product-image-wrapper">
+			</div>
+		</div>	
+	</section>
+
+	<section class="sixth-heghlight-wrapper"> 
+		<div class="left-side-wrapper">
+			<div class="top-logo-wrapper">
+				<div class="logo-wrapper">
+				</div>
+
+				<div class="series-wrapper">
+				</div>
+			</div>
+
+			<div class="description-wraper">
+			</div>
+
+			<div class="links-wrapper">
+				- list of links 
+			</div>
+
+			<div class="product-image-wrapper">
+			</div>
+		</div>
+
+		<div class="right-side-wrapper">
+			<div class="top-logo-wrapper">
+				<div class="logo-wrapper">
+				</div>
+
+				<div class="series-wrapper">
+				</div>
+			</div>
+
+			<div class="description-wraper">
+			</div>
+
+			<div class="links-wrapper">
+				- list of links 
+			</div>
+
+			<div class="product-image-wrapper">
+			</div>
+		</div>	
+	</section>
+
+	<footer class="footer-wrapper">
+		<div class="upper-text-container">
+		</div>
+
+		<div class="footer-links-wrapper"> 
+			<div class="links-wrapper-1">
+			</div> 
+			
+			<div class="links-wrapper-2">
+			</div> 
+			
+			<div class="links-wrapper-3">
+			</div> 
+			
+			<div class="links-wrapper-4">
+			</div> 
+			
+			<div class="links-wrapper-5">
+			</div> 
+		</div>
+
+		<div class="my-apple-wrapper"> 
+		</div>
+
+		<div class="copyright-wrapper">
+			<div class="copyright">
+			</div>
+
+			<div class="footer-links-terms">
+			</div>
+
+			<div class="footer-country">
+			</div>
+		</div>
+	</footer> 
+</div>
+
