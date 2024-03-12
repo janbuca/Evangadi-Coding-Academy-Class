@@ -1,0 +1,78 @@
+/*Fruits*/
+ul {
+    list-style: none;
+}
+li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+
+}
+#listOfFruits {
+}
+.red {
+    background: red;
+}
+.yellow {
+    background: yellow;
+}
+.green {
+    background: green;
+}
+.orange {
+    background: orange;
+}
+.sdasfdasdas {
+    background: black;
+}
+
+
+/*Forms*/
+
+input {
+    padding: 9px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;
+    width: 100%;
+    background: #FFFFFF;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+input:hover
+input:focus {
+    border-color: #C9C9C9;
+}
+
+label {
+    margin-left: 0px;
+    color: #999999;
+}
+
+button, input[type="submit"] {
+    width: auto;
+    padding: 9px 15px;
+    background: #cccccc;
+    border: 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.form-wrapper {
+    max-width: 400px;
+}
+.container {
+    padding: 20px 40px;
+}
+#errorsDisplay {
+    padding: 10px; 
+    border: 1px solid red;
+    display: none;
+}
+.fruits-menu{
+    background: pink;
+    padding: 10px;
+    margin-left: 32px;
+    font-weight: bold;
+    text-align: center;    
+}
+
