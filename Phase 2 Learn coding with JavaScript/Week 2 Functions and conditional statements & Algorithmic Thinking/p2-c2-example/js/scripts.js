@@ -300,6 +300,44 @@ function areaTri(width, height) {
   }
 }
 console.log(areaTri(5, 4));
+
+
+var areaRec = function (width, height){
+  console.log("Plase Calculate the area of the Rectangle is")
+  if ((width < 0|| height <0) || (typeof  width !== "number" || typeof height !== "number")) {
+      return "You Entring is wrong a Number";
+  }else{
+      return ((width * height));
+  }                    
+}
+console.log(areaRec(5, 5));
+
+// Question 9
+//    ● Create a function that returns the total number of legs of all the animals.
+//     In this challenge, a farmer is asking you to tell him how many legs can be counted among all his animals.
+//     The farmer breeds three species (chickens = 2 legs, cows =, 4 legs, pigs = 4 legs). Remember:
+//     the farmer wants to know the total number of legs and not the total number of animals.
+    function getTotalLegs() {
+        var chickenlegs = 2;
+        var cowlegs = 4;
+        var piglegs = 4 ;
+        var totallegs = chickenlegs + cowlegs + piglegs;
+        
+        return totallegs;
+    };
+    console.log(getTotalLegs());
+
+
+    console.log("Calculate the total number of legs of 3  animals");
+                function animalsLegs(chickens, cows, pigs) {
+                    if (chickens <= 0 ||cows <=0 || chickens <=0) {
+                        return "It Only Enter a postif "
+                    }else if (typeof chickens !== "number" ||typeof cows !== "number" ||typeof chickens !== "number") {
+                        
+                    } else {
+                        return ((chickens * 2) + (cows* 4) + (chickens * 4));
+                    }                    
+                }
   
 
   
