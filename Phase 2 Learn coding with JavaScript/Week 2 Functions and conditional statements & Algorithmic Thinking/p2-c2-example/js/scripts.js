@@ -49,26 +49,28 @@ console.log(exampleArray[1]);
 console.log(exampleArray[2]);
 
 // // Declaring/defining  a function
-// function onn(id) {
-//   console.log("We are on .. ");
-//   console.log("The id is " + id);
-// }
+
+function onn(id) {
+  console.log("We are on .. ");
+  console.log("The id is " + id);
+}
 // // Calling/using a function
-// onn(345698);
+onn(345698);
 // onn(564321);
 
 // // Functions with arguments
-// function myFunctionNameWithArgument(a) {
-//   console.log(a);
-// }
+function myFunctionNameWithArgument(a) {
+  console.log(a);
+}
+myFunctionNameWithArgument("function with one parameter");
 
 // // myFunctionNameWithArgument("Abebe beso bela");
-// function myAdditionCalculator(a, b) {
-//   var c;
-//   c = a + b;
-//   console.log(c);
-// }
-// myAdditionCalculator(45, 99);
+function myAdditionCalculator(a, b) {
+  let c;
+  c = a + b;
+  console.log(c);
+}
+myAdditionCalculator(45, 99);
 
 // // Functions that return a value
 // function myAdditionCalculator2(a, b) {
