@@ -1,50 +1,52 @@
 // // Arithmetic operators
-// var a, b, c, d, e;
-// a = 2876;
-// b = 37654;
-// c = a + b;
-// d = a * b;
+var a, b, c, d, e;
+a = 2876;
+b = 37654;
+c = a + b;
+d = a * b;
 // // console.log(d);
-// e = (a + b) * (c / d);
-// console.log(e);
+e = (a + b) * (c / d);
+console.log(e);
 
 // // String Operator (Concatenation)
-// var a = "";
-// var b = " Another Text";
-// var c = a + b;
-// console.log(c);
+var a = "";
+var b = " Another Text";
+var c = a + b;
+console.log(c);
 
 // // Comparison Operators
-// var a = "A";
-// var b = 65;
-// console.log(a == b);
+var a = "A";
+var b = 65;
+console.log(a == b);
 
 // ** Why is 5 less than A
 
 // // Logical Operators
-// console.log(1 == 1 || 2 == 2 || 3 == 7);
+console.log(1 == 1 || 2 == 2 || 3 == 7);
 
 // // Weak Typing
-// var a = 5;
-// var b = "T";
-// // a = true;
-// console.log(a);
+var a = 5;
+var b = "T";
+a = true;
+console.log(a);
 
-// var c = a + b;
-// console.log(c);
+var c = a + b;
+console.log(c);
 
-// if (1 == 1) {
-//   console.log("Working");
-// }
+if (1 == 1) {
+  console.log("Working");
+}
 
 // // Array
 // // Declaring empty array
-// let exampleArray = [];
+let exampleArray = [];
 // // Adding values to an Array
-// exampleArray = ["white", "black", "orange"];
+exampleArray = ["white", "black", "orange"];
 // // Accessing array values with index
-// console.log(exampleArray);
-// console.log(exampleArray[1]);
+console.log(exampleArray);
+console.log(exampleArray[0]);
+console.log(exampleArray[1]);
+console.log(exampleArray[2]);
 
 // // Declaring/defining  a function
 // function onn(id) {
@@ -94,3 +96,5 @@
 // console.log(ave);
 
 // Variable Scoping (var, let & const)
+
+
