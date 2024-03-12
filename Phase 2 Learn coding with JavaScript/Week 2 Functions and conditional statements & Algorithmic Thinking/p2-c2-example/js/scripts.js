@@ -430,7 +430,7 @@ console.log(chek(-5,-5));
 
   console.log(chek('Hello',123));
 
-  
+
 
   console.log(evOdd(14));
                 function evOdd(x) {
@@ -441,3 +441,48 @@ console.log(chek(-5,-5));
                     }
                 } 
 
+
+
+/**
+ * <!-- Question 14
+            ● Create a function that returns
+                ○ “Invalid score” if score is above 100 or score is a negative number
+                ○ “Grade A” when score is between 90 and 100 (both 90 and 100 included)
+                ○ “Grade B” when score is between 80 and 89 (both 80 and 89 included)
+                ○ “Grade C” for any score below 79 -->
+ */
+function gradeScore(score){
+    //Checking the conditions one by one in order from highest to lowest
+    if(isNaN(score)){
+       return "Invalid Score";
+     } else if(score < 0){
+         return "Invalid Score";
+     } else if(score > 100){
+         return "Invalid Score";
+     } else if(score >= 90 && score <= 100){
+          return "Grade A";
+     } else if(score >= 80){
+           return "Grade B";
+     } else {
+            return "Grade C";
+      } 
+}
+console.log(gradeScore("abc"));//Expected Output: Invalid Score 
+console.log(gradeScore(-50));//Expected Output: Invalid Score
+console.log(gradeScore(105));//Expected Output: Invalid Score
+console.log(gradeScore(85));//Expected Output: Grade B 
+
+
+
+console.log(Stud(15));
+                    function Stud(score) {
+                        if ((score > 100) || (score < 0) && (score !== "number")) {
+                            return "The Studnt Values is Invalid score";
+                        } else  if(score > 90){
+                            return "A";
+                        } else if (score >80) {
+                            return "B";
+                        }else{
+                            return "C";
+                        }                        
+                    }
