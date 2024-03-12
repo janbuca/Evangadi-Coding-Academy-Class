@@ -114,3 +114,159 @@ function checkPassword(pass1, pass2) {
 checkPassword(5, 5);
 checkPassword(10, 15);
 
+// Terminal Operator
+
+function checkPasswordTerminal(test1, test2) {
+  test1 == test2
+  ? console.log("Correct password") 
+  : console.log("Wrong password");
+}
+
+checkPasswordTerminal(7,  7);
+checkPasswordTerminal(8,  7);
+
+// Swish Statement 
+
+function whattoDrink(time) {
+
+  let drink;
+  switch (time) {
+    case "morning":
+      console.log(drink = "Coffee!");
+      break;
+      
+    case "afternoon":
+      console.log(drink = "Tea!");
+      break;
+    case "night":
+        console.log(drink = "Milk!");
+        break;        
+    default:
+      console.log(drink ="water!");
+  }
+}
+
+whattoDrink("morning");
+whattoDrink("afternoon");
+whattoDrink("night");
+whattoDrink("evening");
+
+
+
+
+function stud(score) {
+  if (condition) {
+  
+      return "The Studnt Values is Invalid score"
+  } else if (score >= 90) {
+      return "A+";
+  }else if (score >= 85) {
+      return "A";
+  }else if(score >= 80){
+      return "A-"
+  }else if (score >= 75) {
+      return "B+";
+  }else if(score >= 70){
+      return "B";
+  }else if(score >= 65){
+      return "B-";
+  }else if (score >= 60) {
+      return "C+";
+  }else if (score >= 55) {
+      return "C";
+  }else if (score >= 50) {
+      return "D";
+  }else{
+      return "F";
+      console.log("It is Failed blc the values is less than to '50'");
+  }
+
+  
+}
+     
+
+// Functions and conditional statements - practice exercise
+// Questions on functions
+// ********************
+  // Question 1
+  // ● Define a simple function named myFirst that prints the word "Hello" on the console
+  // ○ First define the function
+  // ○ Then call the function
+
+  function myFirst() {
+    console.log("Hello");    
+  }
+  myFirst();
+
+
+  // Question 2
+  // ● Define a function called mySecond that takes a parameter and prints the parameter on console
+  // ○ Feel free to give any value as a parameter in your function
+
+  // function mySecond(name) {
+  //   console.log(name);    
+  // }
+  // mySecond("Janbuca Teshome");
+
+
+
+  // Question 3
+  // ● Define a function called myThird that takes a parameter and prints the parameter on the
+  // console. But, it uses mySecond function to print the parameter on the console
+  // ○ Call mySecond function inside of myThird function with the parameter passed from myThird function
+
+  // function myThird(x){
+  //   mySecond(x);
+  // }
+  // myThird("I am Janbuca__tesshaw");
+
+
+
+  // Question 4
+  // ● Write a function named myFourth that takes an array as a parameter and prints only the first
+  // value of the array on the console. Remember, this question is here to explain the concept of
+  // function delegation in JavaScript
+
+// function myFourth(arr){
+//    mySecond(arr[0]);
+//    mySecond(arr[1]);
+//    mySecond(arr[2]);
+// }
+// myFourth([5,"firew",false]);
+
+
+
+  // Question 5
+  // ● Write a function named myFifth that takes an array with two numbers in it as a parameter
+  // and prints the sum of the two numbers on console
+
+  // function myFifth(a, b) {
+  //   let result = a + b; 
+  //   console.log(result);
+  // } 
+  // myFifth(6,9);
+
+  // function myFifth(a, b) {
+  //   return a + b;  
+  // } 
+  // console.log(myFifth(6,9));
+  // console.log(myFifth(20,9));
+ 
+
+
+  // Question 6
+  // ● Write a function that takes an integer minutes and converts it to seconds.
+  // ○ https://edabit.com/challenge/8q54MKnRrm89pSLmW
+
+  // function convertMinToSecs(minutes) {
+  //   const secsPerMin = 60;
+  //   return minutes * secsPerMin;
+  // } 
+  // console.log(convertMinToSecs(1));
+  // console.log(convertMinToSecs(2));
+
+  
+
+  
+
+
