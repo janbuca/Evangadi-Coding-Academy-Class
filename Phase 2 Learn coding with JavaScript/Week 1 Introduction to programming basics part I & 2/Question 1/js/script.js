@@ -1,6 +1,6 @@
 // How to test your JS 
 	console.log("HELLO WORLD");
-	window.alert("Selam");
+	window.alert("JS file is connected!!");
 
 // Declaring Variables
 
@@ -13,8 +13,8 @@
 	console.log(a);
 
 	var fullName = "";
-	var firstName = "Adem";
-	var lastName = " Wolde"; 
+	var firstName = "firew";
+	var lastName = " kifle"; 
 	fullName = firstName + lastName; 
 	console.log(fullName);
 
@@ -85,7 +85,31 @@
 	// ● Use the formula c = a + b
 	// ● Display the value of c on console
 
+	var a, j, c;
+	j = 1;
+	a = 1+j;
+	// b=2;
+	c=a+j;
+	console.log(c)
+
+// Question 4:
+	// Create a variable to hold your first name
+	// ● Create another variable to hold your last name
+	// ● Create a third variable to hold your full name
+	// ● Assign the value of your first name and last name to the first two variable
+	// ● Use "+" to concatenate your first name and last name to assign the result to your last name's
+	// variable
+	// ● Don't forget to include space between your first and last name
+	// ● Display the value of your full name on the console
+
+	let fname = "Janbuca", lname = "Teshome", fullname;
+	fullname = fname + " " + lname;
+	console.log(fullname);
+
 	
+
+
+
 	
 
 
