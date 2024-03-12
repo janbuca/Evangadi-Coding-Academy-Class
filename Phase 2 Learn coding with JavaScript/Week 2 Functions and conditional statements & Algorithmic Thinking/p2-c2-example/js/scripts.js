@@ -203,10 +203,10 @@ function stud(score) {
   // ● Define a function called mySecond that takes a parameter and prints the parameter on console
   // ○ Feel free to give any value as a parameter in your function
 
-  // function mySecond(name) {
-  //   console.log(name);    
-  // }
-  // mySecond("Janbuca Teshome");
+  function mySecond(name) {
+    console.log(name);    
+  }
+  mySecond("Janbuca Teshome");
 
 
 
@@ -215,10 +215,10 @@ function stud(score) {
   // console. But, it uses mySecond function to print the parameter on the console
   // ○ Call mySecond function inside of myThird function with the parameter passed from myThird function
 
-  // function myThird(x){
-  //   mySecond(x);
-  // }
-  // myThird("I am Janbuca__tesshaw");
+  function myThird(x){
+    mySecond(x);
+  }
+  myThird("I am Janbuca__tesshaw");
 
 
 
@@ -227,12 +227,12 @@ function stud(score) {
   // value of the array on the console. Remember, this question is here to explain the concept of
   // function delegation in JavaScript
 
-// function myFourth(arr){
-//    mySecond(arr[0]);
-//    mySecond(arr[1]);
-//    mySecond(arr[2]);
-// }
-// myFourth([5,"firew",false]);
+function myFourth(arr){
+   mySecond(arr[0]);
+   mySecond(arr[1]);
+   mySecond(arr[2]);
+}
+myFourth([5,"firew",false]);
 
 
 
@@ -240,17 +240,17 @@ function stud(score) {
   // ● Write a function named myFifth that takes an array with two numbers in it as a parameter
   // and prints the sum of the two numbers on console
 
-  // function myFifth(a, b) {
-  //   let result = a + b; 
-  //   console.log(result);
-  // } 
-  // myFifth(6,9);
+  function myFifth(a, b) {
+    let result = a + b; 
+    console.log(result);
+  } 
+  myFifth(6,9);
 
-  // function myFifth(a, b) {
-  //   return a + b;  
-  // } 
-  // console.log(myFifth(6,9));
-  // console.log(myFifth(20,9));
+  function myFifth(a, b) {
+    return a + b;  
+  } 
+  console.log(myFifth(6,9));
+  console.log(myFifth(20,9));
  
 
 
@@ -258,12 +258,12 @@ function stud(score) {
   // ● Write a function that takes an integer minutes and converts it to seconds.
   // ○ https://edabit.com/challenge/8q54MKnRrm89pSLmW
 
-  // function convertMinToSecs(minutes) {
-  //   const secsPerMin = 60;
-  //   return minutes * secsPerMin;
-  // } 
-  // console.log(convertMinToSecs(1));
-  // console.log(convertMinToSecs(2));
+  function convertMinToSecs(minutes) {
+    const secsPerMin = 60;
+    return minutes * secsPerMin;
+  } 
+  console.log(convertMinToSecs(1));
+  console.log(convertMinToSecs(2));
 
   
 
