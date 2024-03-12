@@ -384,4 +384,35 @@ console.log(chek(5,"5"));
 console.log(chek(5,"Janbuca"));
 console.log(chek(-5,-5));
 
+/*
+< Question 12
+            ● Create a function that takes an integer and returns true if it's divisible by 100, otherwise return false. -->
+
+*/
+    function checkTypeOf(value){
+        switch(typeof(value)){
+            case 'string':
+                return `You entered the string "${value}"`;
+            break;
+            case 'boolean':
+                return `You entered ${Boolean(value)}`;
+            break;
+            default:
+                return `You enter unknown type "${typeof(value)}"`; 
+        }
+    }
+    
+    //console.log(check TypeOf("John Doe"));
+    //console.log(check TypeOf(45));
+    //console.log(check TypeOf(true)); 
+
+    console.log(int(110));
+                function int(a) {
+                    if (a % 100 !==0) {
+                        return "False!!!";                        
+                    }else{
+                        return "True!!!";
+                    }                    
+                }
+
 
