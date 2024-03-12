@@ -349,6 +349,39 @@ console.log(areaRec(5, 5));
 }
 var arr = ([5, 50]);
 console.log(arrayTwo(arr));
-  
+
+/*
+<!-- Questions on Conditional statements and - practice exercise -->
+
+            <!-- Question 11
+            ● Create a function that returns true when num1 is equal to num2; otherwise return false. -->
+*/
+    function compareNumbers(num1, num2){
+      if (num1 == num2){
+          return true;
+      }else{
+          return false;
+      }
+    }
+    console.log(compareNumbers(6, 6))
+
+
+
+    let chek = (num1, num2)=> {
+      if(typeof(num1) !== "number" || typeof(num2) !== "number"){
+       return "The Entring values is String plases change to a Number";
+   }else if(num1 === num2){
+       return "The OutPut value is 'Ture' b/c it is 'Equal'";
+   }else{
+       return "The output values is 'False' b/c it not 'Equal'";
+   }
+   return num1 === num2? true:false;
+   return num1 === num2;
+}
+console.log(chek(5,5));
+console.log(chek(5,10));
+console.log(chek(5,"5"));
+console.log(chek(5,"Janbuca"));
+console.log(chek(-5,-5));
 
 
