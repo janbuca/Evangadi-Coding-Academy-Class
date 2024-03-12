@@ -338,8 +338,17 @@ console.log(areaRec(5, 5));
                         return ((chickens * 2) + (cows* 4) + (chickens * 4));
                     }                    
                 }
-  
+                console.log(animalsLegs(2, 2, 2));
 
+
+  
+  // Question 10 (not from edabit.com)
+  // ● Create a function that takes an array containing only TWO numbers as a parameter and returns a value that is 3 times the first element of the array.
+  function arrayTwo(n) {
+    return [n[0] * 3, n[1]];
+}
+var arr = ([5, 50]);
+console.log(arrayTwo(arr));
   
 
 
