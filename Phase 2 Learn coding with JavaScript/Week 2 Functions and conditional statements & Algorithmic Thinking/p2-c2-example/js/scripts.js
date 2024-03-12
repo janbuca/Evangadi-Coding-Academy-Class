@@ -265,6 +265,22 @@ myFourth([5,"firew",false]);
   console.log(convertMinToSecs(1));
   console.log(convertMinToSecs(2));
 
+  // Question 7
+  //     ● Create a function that takes a number as a parameter, increments the number by +1 and returns the result -->
+  //     • Write a function called "multiplyArray" that takes in three arrays: arr1, arr2, and arr3.
+
+  function inc(num) {
+    console.log("The Given Number auto Increment by one.");
+
+    if (typeof num !== "number") {
+        return "you enter the values is wrong plases changeing the values";
+    } else {
+        var x = num++;
+        return x;
+    }
+ }
+ var num1 = inc(15);
+ console.log(num1);
   
 
   
