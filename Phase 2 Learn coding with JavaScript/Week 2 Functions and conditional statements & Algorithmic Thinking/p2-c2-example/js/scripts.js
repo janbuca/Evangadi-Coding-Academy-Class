@@ -72,30 +72,30 @@ function myAdditionCalculator(a, b) {
 }
 myAdditionCalculator(45, 99);
 
-// // Functions that return a value
-// function myAdditionCalculator2(a, b) {
-//   var c;
-//   c = a + b;
-//   var d = (a + b) / 2;
-//   return [c, d];
-// }
+// // Functions that return a value100));
+function myAdditionCalculator2(a, b) {
+  let c;
+  c = a + b;
+  var d = (a + b) / 2;
+  return [c, d];
+}
 // // How to use it
-// var a = myAdditionCalculator2(45, 99);
+// let a = myAdditionCalculator2(45, 99);
 // console.log(a);
 // // My average calculator
-// function myAverageCalculator(a, b) {
-//   var c = (a + b) / 2;
-//   return c;
-// }
-// var ave = myAverageCalculator(40, 60);
-// console.log(ave);
+function myAverageCalculator(a, b) {
+  var c = (a + b) / 2;
+  return c;
+}
+var ave = myAverageCalculator(40, 60);
+console.log(ave);
 // // Another way of writing the same function
-// function myAverageCalculator2(a, b) {
-//   var c = myAdditionCalculator2(a, b) / 2;
-//   return c;
-// }
-// var ave = myAverageCalculator2(40, 60);
-// console.log(ave);
+function myAverageCalculator2(a, b) {
+  var c = myAdditionCalculator2(a, b) / 2;
+  return c;
+}
+var ave = myAverageCalculator2(40, 60);
+console.log(ave);
 
 // Variable Scoping (var, let & const)
 
