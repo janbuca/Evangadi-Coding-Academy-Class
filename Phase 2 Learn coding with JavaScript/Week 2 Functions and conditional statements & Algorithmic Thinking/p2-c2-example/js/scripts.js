@@ -415,4 +415,29 @@ console.log(chek(-5,-5));
                     }                    
                 }
 
+  /*
+  <!-- Question 13
+            ● Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers -->
+
+   */
+  function chek(x,y){
+      let res = [];
+      res.push(`Value of x is ${x} and value of y is ${y}`);
+      res.push(checkTypeOf(x));
+      res.push(checkTypeOf(y))
+      return res;
+  };
+
+  console.log(chek('Hello',123));
+
+  
+
+  console.log(evOdd(14));
+                function evOdd(x) {
+                    if ((x % 2) == 0) {
+                        return 'The Given Number is "Even"';
+                    }else{
+                        return 'The Given Number is "ODD"';
+                    }
+                } 
 
