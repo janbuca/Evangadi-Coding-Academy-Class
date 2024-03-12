@@ -100,3 +100,17 @@ console.log(ave);
 // Variable Scoping (var, let & const)
 
 
+// if condition or statement 
+
+function checkPassword(pass1, pass2) {
+  if (pass1 === pass2) {
+    console.log("The Password is Correct");    
+  }else{
+    console.log("The Password is Wrong");
+  }
+  
+}
+
+checkPassword(5, 5);
+checkPassword(10, 15);
+
