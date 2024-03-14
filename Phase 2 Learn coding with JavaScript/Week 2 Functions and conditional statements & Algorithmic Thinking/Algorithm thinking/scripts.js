@@ -234,7 +234,18 @@ function minuteToSecondConverter(minute) {
     return minute * 60;
     }
 }
-console.log(minuteToSecondConverter(45)); 
-console.log(minuteToSecondConverter('abc'));
-console.log(minuteToSecondConverter(-5));
+// console.log(minuteToSecondConverter(45)); 
+// console.log(minuteToSecondConverter('abc'));
+// console.log(minuteToSecondConverter(-5));
+
+function convertDisplay(e) {
+  e.preventDefault();
+  let input = document.getElementById("num").value;
+  let output = document.getElementById("result");
+
+  output.textContent = minuteToSecondConverter(input);
+}
+ document.getElementById("minToSec").addEventListener("submit",convertDisplay);
+  
+
  
