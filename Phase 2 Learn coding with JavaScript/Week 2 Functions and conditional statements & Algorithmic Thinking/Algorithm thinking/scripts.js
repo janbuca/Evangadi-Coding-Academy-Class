@@ -199,10 +199,30 @@
     }
   }
 
-  console.log(triArea(3,7));
-  console.log(triArea("hi", "5"));
-  console.log(triArea(-3, -9));
+  // console.log(triArea(3,7));
+  // console.log(triArea("hi", "5"));
+  // console.log(triArea(-3, -9));
 
+  function footballPoints(a, b, c) {
+    if(isNaN(a) || isNaN(b) || isNaN(c)){
+      return "Invalid input! Please enter numeric values.";
+    } else if((a < 0)||(b < 0)||(c < 0)){
+      return "Invalid input! Please provide positive number.";
+    } else {
+        let winPoint = a *3;
+        let drawPoint = b * 1;
+        let losspoint = c * 0;
+
+        let total = winPoint + drawPoint + losspoint;
+        return total;
+
+    }
+  }
+
+  console.log(footballPoints(6, 8, 10));
+  console.log(footballPoints("Hi","8","12"));
+  console.log(footballPoints(1, 1, 1));
+  
 
 
 
