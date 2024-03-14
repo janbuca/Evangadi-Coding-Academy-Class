@@ -79,8 +79,8 @@ console.log(1 == 1 || 2 == 2 || 3 == 7);
       return [c, d];
     }
 // How to use it
-    let a = myAdditionCalculator2(45, 99);
-    console.log(a);
+    // let a = myAdditionCalculator2(45, 99);
+    // console.log(a);
 // My average calculator
     function myAverageCalculator(a, b) {
       var c = (a + b) / 2;
@@ -420,15 +420,15 @@ console.log(1 == 1 || 2 == 2 || 3 == 7);
             ● Create a function that takes a number as an argument and returns "even" for even numbers and "odd" for odd numbers -->
 
    */
-      function chek(x,y){
-          let res = [];
-          res.push(`Value of x is ${x} and value of y is ${y}`);
-          res.push(checkTypeOf(x));
-          res.push(checkTypeOf(y))
-          return res;
-      };
+      // function chek(x,y){
+      //     let res = [];
+      //     res.push(`Value of x is ${x} and value of y is ${y}`);
+      //     res.push(checkTypeOf(x));
+      //     res.push(checkTypeOf(y))
+      //     return res;
+      // };
 
-        console.log(chek('Hello',123));
+      //   console.log(chek('Hello',123));
 
 
 
@@ -486,3 +486,7 @@ console.log(Stud(15));
                             return "C";
                         }                        
                     }
+
+
+                  
+                    

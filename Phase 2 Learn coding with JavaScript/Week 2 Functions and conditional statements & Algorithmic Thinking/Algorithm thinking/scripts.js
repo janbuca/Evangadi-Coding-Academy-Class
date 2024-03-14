@@ -159,18 +159,33 @@
   // - The function takes one argument
   // - Checks if the provided minute is a valid number greater than 0
   // - If the user enters a string return "You entered a string. Please enter a positive number"
-  // - If yes, multiply that number with 60 and return the product
+  // // - If yes, multiply that number with 60 and return the product
 
-  function minuteToSecondConverter(minutes) {
-    if (typeof minutes !== "number") {
-      return "You entered a string. Please enter a postive number";
-    } else if (minutes < 0) {
-      return "You entered a negative number. Please enter a positive number";
-    } else {
-      return minutes * 60;
-    }
-  }
+  // function minuteToSecondConverter(minutes) {
+  //   if (typeof minutes !== "number") {
+  //     return "You entered a string. Please enter a postive number";
+  //   } else if (minutes < 0) {
+  //     return "You entered a negative number. Please enter a positive number";
+  //   } else {
+  //     return minutes * 60;
+  //   }
+  // }
 
   // var converted = minuteToSecondConverter(45);
   // console.log(converted);
+
+  function add(a, b) {
+    if (isNaN(a) || isNaN(b)) {
+      return "Please provide a number";
+      
+    }else{
+      let c = a=+b;
+      return c;
+    }    
+  }
+
+  console.log(add("Hello", 12));
+  console.log(add(14, 19));
+  console.log(add("4.5", 10));
+  
 
