@@ -179,13 +179,30 @@
       return "Please provide a number";
       
     }else{
-      let c = a=+b;
+      let c = parseInt(12) + parseInt(25);
       return c;
     }    
   }
 
-  console.log(add("Hello", 12));
-  console.log(add(14, 19));
-  console.log(add("4.5", 10));
-  
+  // console.log(add("Hello", 12));
+  // console.log(add("14", "19"));
+  // console.log(add("4.5", 10));
+
+
+  function triArea(base, height) {
+    if(isNaN(base) || isNaN(height)){
+      return "Invalid input! Please enter numeric values.";
+    } else if(base <= 0 ||  height <= 0){
+      return "Invalid input! Both base and height must be greater than zero.";
+    } else {
+      return ((base*height)/2).toFixed(2);
+    }
+  }
+
+  console.log(triArea(3,7));
+  console.log(triArea("hi", "5"));
+  console.log(triArea(-3, -9));
+
+
+
 
