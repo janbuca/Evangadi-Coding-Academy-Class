@@ -219,10 +219,22 @@
     }
   }
 
-  console.log(footballPoints(6, 8, 10));
-  console.log(footballPoints("Hi","8","12"));
-  console.log(footballPoints(1, 1, 1));
+  // console.log(footballPoints(6, 8, 10));
+  // console.log(footballPoints("Hi","8","12"));
+  // console.log(footballPoints(-5, 1, 1));
   
 
-
-
+function minuteToSecondConverter(minute) {
+  if (isNaN(minute)) {
+    return  'Please enter valid minutes';
+  }else if(minute < 0){
+    return 'Minutes cannot be negative numbers';
+    
+  }else{
+    return minute * 60;
+    }
+}
+console.log(minuteToSecondConverter(45)); 
+console.log(minuteToSecondConverter('abc'));
+console.log(minuteToSecondConverter(-5));
+ 
