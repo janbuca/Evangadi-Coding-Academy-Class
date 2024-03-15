@@ -210,5 +210,54 @@ function passOrFail(arr) {
 }  
 }
 
-passOrFail([90, 50, 65, 45, 49, 48, 100]);
+// passOrFail([90, 50, 65, 45, 49, 48, 100]);
 
+function printNumber() {
+  let i = 0;
+  while (i<5) {
+    console.log("The value of i :", i);
+    i++;    
+  }  
+}
+// printNumber();
+
+function listName(arr) {
+  let i = 0;
+  while (i < arr.length) {
+    console.log(arr[i]);
+    i++  
+  }  
+}
+// listName(["janbuca", "teshome", "Tefera", "tabech", ""])
+
+function listName2(arr) {
+  let x = true;
+  let i = 0;
+  while (x) {
+    if (arr[i] == "Bob") {
+      x = false;      
+    }else{
+      console.log(arr[i]);
+    }
+    i++;    
+  }  
+}
+
+// listName2(["Abebe", "Kebede", "Almaz", "James", "Bob", "Curry"]);
+
+function addUp(num) {
+  if (typeof num != "number" || num < 0) {
+    return "please enter a positive number value";    
+  }
+
+  let sum = 0;
+
+  for (let i = 0; i <= num; i++) {
+    sum = sum + i; 
+    console.log("value of i ", i);
+    console.log("Current total sum". sum);   
+  }
+  return sum;
+  
+}
+// close.log(addUp(4));
