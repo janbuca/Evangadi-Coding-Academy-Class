@@ -181,3 +181,40 @@ function addUp2(num) {
 // }
 // a = [2, 3, 1, 4, 7];
 // console.log(checkMiddle(a));
+
+
+let myFiatCar = {
+  name : "Fiat",
+  model : 500,
+  weight : "850kg",
+  color : "white",
+
+  start:function() {
+    return "Start my" + this.name;    
+  },
+
+  drive: function() {
+    return "Go forward" + this.name;    
+  },
+
+  stop: function () {
+    return "Stop" + this.name;    
+  }  
+}
+
+console.log(myFiatCar);
+console.log(myFiatCar.name);
+console.log(myFiatCar["model"]);
+console.log(myFiatCar.weight);
+console.log(myFiatCar["color"]);
+console.log(myFiatCar.start());
+console.log(myFiatCar.drive());
+console.log(myFiatCar.stop());
+
+
+myFiatCar.name = "Toyota";
+console.log(myFiatCar.name);
+
+myFiatCar.mileage = 4000;
+console.log(myFiatCar.mileage);
+
