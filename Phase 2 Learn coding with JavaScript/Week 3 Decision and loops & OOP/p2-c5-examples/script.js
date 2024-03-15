@@ -1,21 +1,23 @@
-// // Object declaration
-// let exampleEmptyObject = {};
-// let exampleArray = [1, 3, 4, 5, {}, {}];
+// Object declaration
+let exampleEmptyObject = {};
+let exampleArray = [1, 3, 4, 5, {}, {}];
 
-// // person object
-// let person = {
-//   firstName: "Abebe",
-//   lastName: "Kebede",
-// };
+// person object
+let person = {
+  firstName: "Abebe",
+  lastName: "Kebede",
+};
 // console.log(person);
 
-// // console.log(exampleArray);
 
+// // console.log(exampleArray);
 // console.log(exampleArray[1]);
+
 
 // // Accessing properties
 // console.log(person.lastName);
 // console.log(person["lastName"]);
+
 
 // // Change the property’s value
 // person.firstName = "Almaz";
@@ -25,44 +27,49 @@
 // exampleArray[1] = 90;
 // console.log(exampleArray);
 
+
+
 // // Add new property
 // person.age = 50;
 // console.log(person);
 
-// // Adding a method to an object
-// let person = {
-//   firstName: "Abebe",
-//   lastName: "Kebede",
-//   someFunction: function () {
-//     // Function definition goes here
-//     console.log("Olla");
-//   },
-// };
-// person.someFunction();
 
-// // Using the "this" reference
-// let person = {
-//   firstName: "Abebe",
-//   lastName: "Kebede",
-//   fullName: function () {
-//     return this.firstName + " " + this.lastName;
-//   },
-// };
-// console.log(person.fullName());
+// Adding a method to an object
+let student = {
+  firstName: "janbuca",
+  lastName: "Teshome",
+  someFunction: function () {
+    // Function definition goes here
+    console.log("Olla");
+  },
+};
+// console.log(student.firstName);
+// student.someFunction();
 
-// let fullName = person.fullName();
-// console.log(person.fullName());
 
-// // Creating an Object using a constructor
-// function Person(first, last) {
-//   this.firstName = first;
-//   this.lastName = last;
-// }
+// Using the "this" reference
+let person1 = {
+  firstName: "Tabech",
+  lastName: "Abteyes",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  },
+};
+// console.log(person1.fullName());
+// let fullName = person1.fullName();
+// console.log(person1.fullName());
 
-// let myClassMate = new Person("Abebe", "Kebede");
-// let myOtherClassMate = new Person("Almaz", "Debebe");
-// console.log(myClassMate);
-// console.log(myOtherClassMate);
+
+// Creating an Object using a constructor
+function Person2(first, last) {
+  this.firstName = first;
+  this.lastName = last;
+}
+
+let myClassMate = new Person2("Abebe", "Kebede");
+let myOtherClassMate = new Person2("Almaz", "Debebe");
+console.log(myClassMate);
+console.log(myOtherClassMate);
 
 // // Methods in a constructor
 // function Person(first, last) {
