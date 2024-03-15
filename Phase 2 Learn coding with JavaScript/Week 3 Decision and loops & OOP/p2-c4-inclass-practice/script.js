@@ -157,7 +157,7 @@ function addUp2(num) {
 // - First check if the given array is null, or the length os divisible by 2. If that is the case return 0
 // - Else
 // - Identify the middle item
-    - To identify the middle item, we need the index of the center item
+    // - To identify the middle item, we need the index of the center item
 //   - To get the index of the middle item, we can divide the length of the array by 2 and round that to the floor
 // - Save the value of the middle item on a variable using the index
 // - Then loop through every item of the array and compare it with the middle value (except itself)

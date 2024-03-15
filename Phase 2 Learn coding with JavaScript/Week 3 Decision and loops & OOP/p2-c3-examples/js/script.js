@@ -1,9 +1,9 @@
-var i;
-for (i = 1; i <= 55; i++) {
-  console.log("Student " + i + " raise your hand");
-}
-var a = 90;
-console.log("Student " + a + " raise your hand");
+// var i;
+// for (i = 1; i <= 55; i++) {
+//   console.log("Student " + i + " raise your hand");
+// }
+// var a = 90;
+// console.log("Student " + a + " raise your hand");
 
 // // If Statement
 // var pass = 50;
@@ -170,3 +170,33 @@ console.log("Student " + a + " raise your hand");
 //   return sum;
 // }
 // console.log(addAll(5));
+
+function greetings() {
+  for (let i = 1; i < 6; i++) {
+    console.log(i , "Hi Class");
+    
+  }
+  
+}
+// greetings();
+function print(start, end) {
+  for (let i = start; i <= end; i++) {
+    console.log("printing page number!", i);
+    
+  }  
+}
+
+// print(6, 5);
+// print(50, 57);
+
+function listElement(someNumbers) {
+  console.log(someNumbers);
+  console.log(someNumbers.length);
+  for(let i = 0; i < someNumbers.length; i++){
+    console.log("Element", someNumbers[i]);
+  }
+  
+}
+
+listElement([10, 20, 30, 40, 50, 60, 70, 80, 90]);
+
