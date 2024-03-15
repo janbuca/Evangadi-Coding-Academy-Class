@@ -198,5 +198,17 @@ function listElement(someNumbers) {
   
 }
 
-listElement([10, 20, 30, 40, 50, 60, 70, 80, 90]);
+// listElement([10, 20, 30, 40, 50, 60, 70, 80, 90]);
+
+function passOrFail(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if(arr[i] >= 50){
+    console.log("Student " + i + " passed - with the score of :" + arr[i]);    
+  }else {
+    console.log("Student " + i + " failed - with the score of :" + arr[i]);
+  }
+}  
+}
+
+passOrFail([90, 50, 65, 45, 49, 48, 100]);
 
