@@ -47,6 +47,26 @@ function integer() {
             }
         console.log(sum);
      }
-    addup(7);
+    // addup(7);
+
+    /* Question 4
+            ● Write a function that takes an array as an argument and prints every element of the array on the console.
+                ○ Test case: given the array a = [1, "Hello", 8, 44], output should look like this:
+                    1
+                    Hello
+                    8
+                    44 
+     */
+        function arr(a) {
+            console.log(a);
+            let len = a.length;
+            for (let i = 0; i < len; i++) {
+                console.log(a[i]);
+            }
+        }
+        arr([1, "Hello", 8, 44, 22]);
+
+    
+
 
                     
