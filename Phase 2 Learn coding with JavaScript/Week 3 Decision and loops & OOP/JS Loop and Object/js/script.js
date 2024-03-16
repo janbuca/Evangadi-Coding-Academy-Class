@@ -300,4 +300,12 @@ Question 11
 
     evangadiClass.lengthOfCourse = "5 Month";
                 console.log(evangadiClass);
-        
+ 
+/*
+Question 12
+    ● Add "Bootstrap" at the end of the topicsCovered property and print the new object on the console.
+    ○ // Use an array method -->
+*/
+
+evangadiClass.topicsCovered.push("Bootstrap");
+                console.log(evangadiClass);
