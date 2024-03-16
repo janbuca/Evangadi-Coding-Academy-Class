@@ -160,6 +160,48 @@ function oddeven(x) {
 }
 // oddeven([3, 5, 4, 8]);
 
+/*
+Question 8
+    ● Write a function that takes an array as a parameter and logs in the console the elements that have even indexes only. Notice: this question is not asking you to log elements with even value, but elements that are located on even indexes).
+    ○ Test case 1: If you give this array to the function [5, 6, 99, 8, 76, 4, 68, 44], toutput should be:
+        5
+        99
+        76
+        68
+    ○ Test case 2: If you give this array to the function [11, “Sam”, 3, 7, “car”], output should be:
+        11
+        3
+        ca
+*/
+
+function evenIndex(x) {
+    for (let i = 0; i < x.length; i += 2) {
+            console.log(x[i]);
+    }
+}
+    evenIndex([11, "sam", 3, 7,"car"]);
+    evenIndex([5, 6, 99, 8, 76, 4, 68, 44]);
+
+    let e = [5, 6, 99, 8, 76, 4, 68, 44];
+    console.log(e);
+
+    const even=[]
+    const arr = [5, 6, 99, 8, 76, 4, 68, 44];
+    for(const num of arr){
+        if ( num % 2 == 0){
+            even.push(num);
+        }
+    }
+    console.log(even);
+
+    var arr = [4, 5, 7, 8, 14, 45, 76];
+        var filtered = arr.filter(function (element, index, array) {
+        return index % 2 === 0;
+        });
+    
+        console.log(arr);
+
+
     
 
 
