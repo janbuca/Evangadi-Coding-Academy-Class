@@ -368,3 +368,15 @@ console.log(percentage(evanStu));
         return arr;
      }
      console.log(tesDiv(2, 100));
+     
+
+     function tesDiv(low,high) {
+        var output = [];
+        for (var i = low; i<= high; i++){
+            output.push(i);
+            if (i % 3 ===0 ){ output.push("div3");}
+        }
+
+        return output;
+    }
+        tesDiv( 2,9);
