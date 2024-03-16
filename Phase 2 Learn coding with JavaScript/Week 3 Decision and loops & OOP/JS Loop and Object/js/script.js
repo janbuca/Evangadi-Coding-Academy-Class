@@ -309,3 +309,20 @@ Question 12
 
 evangadiClass.topicsCovered.push("Bootstrap");
                 console.log(evangadiClass);
+
+/*
+Question 13
+    ● Write a function that takes the "evangadiClass" object as an argument and calculates the average age of the class. Print the result on the console
+*/
+
+function average(stud) {
+    let sum = 0;
+
+    for(i=0; i< stud.length; i++){
+        sum = (sum + stud[i].age);
+    }
+    let av = sum/stud.length
+    return av;
+}
+
+console.log(average(evanStu));
