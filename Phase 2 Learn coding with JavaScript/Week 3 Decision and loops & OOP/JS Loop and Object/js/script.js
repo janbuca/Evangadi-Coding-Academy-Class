@@ -350,3 +350,21 @@ function percentage(mf) {
     return (numFemale / total) * 100;
 }
 console.log(percentage(evanStu));
+
+/*
+    Question 15:
+        Test the divisors of three
+       ● Write a function that takes 2 parameters: a low and high number. Your goal is to print all numbers (on the console) between low and high, and for each of these numbers print whether or not the number is divisible by 3. If the number is divisible by 3, print the word "div3" directly after the number.
+ */
+
+       function tesDiv(low, high) {
+        let arr = [];
+        for (i = low + 1; i < high; i++) {
+            if (i % 3 === 0) {
+            arr.push(i + " div3");
+            } else arr.push(i);                        
+        }
+
+        return arr;
+     }
+     console.log(tesDiv(2, 100));
