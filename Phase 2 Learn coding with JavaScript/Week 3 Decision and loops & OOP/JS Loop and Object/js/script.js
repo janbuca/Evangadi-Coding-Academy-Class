@@ -256,5 +256,48 @@ Question 10
 
 //                 console.log(order.sort().reverse());
 
+/*
+          Questions on JavaScript objects
+            ******************************************************************************** -->
+        <!-- The questions below ( questions 11 to 14) are based on the "evangadiClass" object provided below. let evangadiClass = {
+            lengthOfCourse: "1 Month", isChallenging: false,
+            topicsCovered: ["HTML", "CSS", "Media Query", "JavaScript"],
+            students:  [
+                            {
+                                name: "Abebe",
+                                age: 34,
+                                sex: "M"
+                                },
+                            {
+                                name: "Kebede",
+                                age: 44,
+                                sex: "M"
+                            },
+                            {
+                                name: "Almaz",
+                                age: 27,
+                                sex: "F"
+                            },
+                            {
+                                name: "Challa",
+                                age: 22,
+                                sex: "M"
+                            },
+                            {
+                                name: "Chaltu",
+                                age: 19,
+                                sex: "F"
+                            }
+                        ]
+                    } 
+ */
 
-                    
+/*
+Question 11
+    ● Change the lengthOfCourse property of the object to "5 Month" and print the new object on the console.
+    ○ // Use the dot notation "." to call the property you want to change
+ */
+
+    evangadiClass.lengthOfCourse = "5 Month";
+                console.log(evangadiClass);
+        
