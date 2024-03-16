@@ -368,7 +368,7 @@ console.log(percentage(evanStu));
         return arr;
      }
      console.log(tesDiv(2, 100));
-     
+
 
      function tesDiv(low,high) {
         var output = [];
@@ -379,4 +379,28 @@ console.log(percentage(evanStu));
 
         return output;
     }
-        tesDiv( 2,9);
+    tesDiv( 2,9);
+
+/*
+Question 16: 
+    The famous coding interview question (FizzBuzz)
+        ● Write a function that prints in the console the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz” and for numbers which are multiples of both three and five print "FizzBuzz" -->
+*/
+
+// creat a function
+                // contain from1-100
+
+                function mul(x, y) {
+                    let arr = [];
+                    for (let i = x; i <= y; i++) {
+                        if (i % 3 === 0 && i % 5 === 0) {
+                        arr.push("fizzBuzz");
+                        } else if (i % 3 === 0) {
+                        arr.push("Fizz");
+                        } else if (i % 5 === 0) {
+                        arr.push("Buzz");
+                        } else arr.push(i);
+                    }
+                    return arr;
+                    }
+                    console.log(mul(1, 100));
