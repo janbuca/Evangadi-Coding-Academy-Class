@@ -24,5 +24,29 @@ function integer() {
             console.log(i);
             }
         }
-    print(7);
+    // print(7);
+
+    function prin(num) {
+        for (let i = 1; i <=5; i++) {
+             console.log(num+i);
+        }
+    }
+    // prin(10);
+
+    /*
+    Question 3
+            ● Write a function that takes a single number and prints the sum of the next 10 numbers after the given number.
+                 ○ Test case: If you give 7 to the function, output should be: 125 - because (8 + 9 + 10+11+ 12+ 13+ 14+ 15+ 16+ 17 = 125) -->
+    */
+
+
+    function addup(num1) {
+        let sum=0;
+        for(let i =num1 +1; i<=num1 +10; i++){
+            sum  = sum+i;
+            }
+        console.log(sum);
+     }
+    addup(7);
+
                     
