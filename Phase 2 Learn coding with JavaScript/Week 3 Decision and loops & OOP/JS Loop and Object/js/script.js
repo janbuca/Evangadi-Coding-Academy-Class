@@ -64,7 +64,60 @@ function integer() {
                 console.log(a[i]);
             }
         }
-        arr([1, "Hello", 8, 44, 22]);
+        // arr([1, "Hello", 8, 44, 22]);
+
+         // second way
+         let ar = [1, "hello", 8];
+         for (let element of ar) {
+            //  console.log(element.toString());
+         }
+
+         // example2
+         function arr(a) {
+            for (let i = 0; i<a.length; i++) {
+                // console.log(a[i]);
+            }
+        }
+        // let b = ([1, "Hello", 8, 44, 55]);
+        // arr(b);
+
+        /*
+<! Question 5
+    ● Write a function that takes an array as an argument and prints the total number of elements found in the array. Hint: use a property of the Array object to solve this question.
+        ○ Test case 1: Given the array a = [1, "Hello", 8, 44], output should be: 4
+        ○ Test case 2: Given the array a = ["world", 13], output should be: 2
+*/
+
+function length(x) {
+    console.log(x.length);
+}
+// length([1, 8, 44]);
+// length(["world", 13]);
+
+
+function isDual(arr) {
+    console.log(arr);
+    let count = {};
+
+    // Count the occurrences of each value in the array
+    for (let i = 0; i < arr.length; i++) {
+        let val = arr[i];
+        console.log(count);
+        count[val] = (count[val] || 0) + 1;
+    }
+    console.log(count);
+    // Check if every value occurs exactly twice
+        for (let key in count) {
+        console.log(count[key]);
+        if (count[key] !== 2) {
+        return 0; // Not a dual array
+        }
+    }
+
+    return 1; // Dual array
+}
+    // console.log(isDual([1, 1,2, 3, 3, 2,5]));
+    // console.log(isDual([2, 5, 2, 5, 5]))
 
     
 
