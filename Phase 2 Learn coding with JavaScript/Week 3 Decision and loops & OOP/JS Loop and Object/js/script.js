@@ -404,3 +404,22 @@ Question 16:
                     return arr;
                     }
                     console.log(mul(1, 100));
+
+/*
+Question 17:
+    Evens number
+        ● An Evens number is an integer whose digits are all even. For example 2426 is an Evens number but 3224 is not. Write a function named isEvens that prints on the console 1 if its integer argument is an Evens number. The function prints 0 otherwise. -->
+ */
+
+        function isEvens(number){
+            const numberString= number.toString();
+            for(let i=0;i<numberString.length;i++){
+                const digit = numberString[i];
+                if(digit % 2 !==0){
+                    return 0;
+                }
+            }
+            return 1;
+        }
+        console.log(isEvens(24266));
+        console.log(isEvens(3224))
