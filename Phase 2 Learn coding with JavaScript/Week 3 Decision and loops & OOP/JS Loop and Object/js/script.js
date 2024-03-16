@@ -224,6 +224,37 @@ Question 9
 
     // array(p);
     
+/*
+Question 10
+    ● Write a function that takes the sampleArray as an argument, sorts the array in ascending order and prints the sorted array on the console
+        // Use the sort method. Make sure you understand just using the sort() method alphabetically. You should use this sorting syntax - sort(function(a, b){return a-b}); -->
+*/
+// var order = [5, 6, 99, 8, 76, 4, 68, 44];
+
+//                 order = order.sort();
+//                 console.log(order);
+
+//                 function Asceding(a,b) {
+//                     return a-b;
+//                 }
+//                 console.log(order.sort());
+
+//                 let order = [5, 6, 99, 8, 76, 4, 68, 44];
+//                 let order = ["abebe", "zebede", "Sara"];
+//                 function sortArray(order) {
+//                 let aa = function (a, b) {
+//                 return a - b;
+//                 };
+//                 order.sort(aa);
+//                 }
+
+//                 sortArray(order);
+//                 console.log(order);
+//                 let newArray = [...order].sort();
+//                 console.log(newArray);
+//                 console.log(newArray.reverse());
+
+//                 console.log(order.sort().reverse());
 
 
                     
