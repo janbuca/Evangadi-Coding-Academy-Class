@@ -119,6 +119,23 @@ function isDual(arr) {
     // console.log(isDual([1, 1,2, 3, 3, 2,5]));
     // console.log(isDual([2, 5, 2, 5, 5]))
 
+
+/*
+Question 6
+    ● Write a function that takes an array of numbers as a parameter and logs in the console the sum of all the numbers in the array.            
+        ○ Test case 1: If you give this array, [5, 6, 99, 8, 76, 4, 68, 44], to the function, output should be: 310 because 5 + 6 + 99 + 8 + 76 + 4 + 68 + 44.
+        ○ Test case 2: If you give this array, [3, 0], to the function, output should be: 3 because 3 + 0            
+*/
+
+function arry(y) {
+    var sum = 0;
+    for (let i = 0; i < y.length; i++) sum += y[i];
+        // console.log(sum)
+    return sum;
+}
+
+console.log(arry([5, 6, 99, 8, 76, 4, 68, 44]));
+
     
 
 
