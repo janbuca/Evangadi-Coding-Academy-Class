@@ -326,3 +326,27 @@ function average(stud) {
 }
 
 console.log(average(evanStu));
+
+/*
+Puzzles
+    ******************************************************************************** -->
+        Question 14:
+            ● Write a function that takes the "evangadiClass" object as an argument and calculates the percentage of male students in the class. Print the result on the console 3/5*100=60
+*/
+
+let evanStu = evangadiClass.students;
+
+function percentage(mf) {
+    let male = evanStu.filter(function (gender) {
+        return gender.sex === "M";
+    });
+    let female = evanStu.filter(function (gender) {
+        return gender.sex === "F";
+    });
+
+    let numMale = male.length;
+    let numFemale = female.length;
+    let total = numMale + numFemale;
+    return (numFemale / total) * 100;
+}
+console.log(percentage(evanStu));
