@@ -174,34 +174,55 @@ Question 8
         ca
 */
 
-function evenIndex(x) {
-    for (let i = 0; i < x.length; i += 2) {
-            console.log(x[i]);
-    }
-}
-    evenIndex([11, "sam", 3, 7,"car"]);
-    evenIndex([5, 6, 99, 8, 76, 4, 68, 44]);
+// function evenIndex(x) {
+//     for (let i = 0; i < x.length; i += 2) {
+//             console.log(x[i]);
+//     }
+// }
+//     evenIndex([11, "sam", 3, 7,"car"]);
+//     evenIndex([5, 6, 99, 8, 76, 4, 68, 44]);
 
-    let e = [5, 6, 99, 8, 76, 4, 68, 44];
-    console.log(e);
+//     let e = [5, 6, 99, 8, 76, 4, 68, 44];
+//     // console.log(e);
 
-    const even=[]
-    const arr = [5, 6, 99, 8, 76, 4, 68, 44];
-    for(const num of arr){
-        if ( num % 2 == 0){
-            even.push(num);
-        }
-    }
-    console.log(even);
+//     const even=[]
+//     const arr = [5, 6, 99, 8, 76, 4, 68, 44];
+//     for(const num of arr){
+//         if ( num % 2 == 0){
+//             even.push(num);
+//         }
+//     }
+//     // console.log(even);
 
-    var arr = [4, 5, 7, 8, 14, 45, 76];
-        var filtered = arr.filter(function (element, index, array) {
-        return index % 2 === 0;
-        });
+//     var arr = [4, 5, 7, 8, 14, 45, 76];
+//         var filtered = arr.filter(function (element, index, array) {
+//         return index % 2 === 0;
+//         });
     
-        console.log(arr);
+//         // console.log(arr);
 
+/*
+Questions on built in JavaScript methods
+    ********************************************************************************* -->
+        Questions 9 and 10 are dependent on the sampleArray provided below:
+            let sampleArray = [5, 6, 99, 8, 76, 4, 68, 44]; -->
+*/
+/*
+Question 9
+    Write a function that takes the sampleArray as a parameter, removes the last element from the array, adds a new value of "32" to the array and prints the new array on the console. Hint: use an array method
+ */
 
+    // let array = [5, 6, 99, 8, 76, 4, 68, 44];
+
+    // let p= [5, 6, 99, 8, 76, 4, 68, 44];
+
+    // function array(pushpop) {
+    //     pushpop.pop();
+    //     pushpop.push(32);
+    //     console.log(pushpop);
+    // }
+
+    // array(p);
     
 
 
