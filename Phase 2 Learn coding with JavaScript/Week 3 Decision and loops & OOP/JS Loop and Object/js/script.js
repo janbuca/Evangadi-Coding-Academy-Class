@@ -134,7 +134,31 @@ function arry(y) {
     return sum;
 }
 
-console.log(arry([5, 6, 99, 8, 76, 4, 68, 44]));
+// console.log(arry([5, 6, 99, 8, 76, 4, 68, 44]));
+
+/*
+Question 7
+    ● Write a function that takes an array of all numbers as a parameter, subtracts the total sum of all odd numbers of the array from the total sum of all even numbers and logs the result in the console.
+        ○ Test case: If you give these array, [5, 6, 99, 8, 76, 4, 68, 44], to the function, output should be: 102
+            ■ Sum of odd numbers: 5 + 99 = 104
+            ■ Sum of even numbers: 6 + 8 + 76 + 4 + 68 + 44 = 206
+            ■ Difference between total even and total odd numbers: 206 - 104 = 102
+*/
+
+function oddeven(x) {
+    let evenSum = 0;
+    let oddSum = 0;
+    for (let i = 0; i < x.length; i++) {
+        if (x[i] % 2 == 0) {
+        evenSum += x[i];
+        } else {
+        oddSum += x[i];
+        }
+    }
+    let result = evenSum - oddSum;
+    console.log(result);
+}
+// oddeven([3, 5, 4, 8]);
 
     
 
