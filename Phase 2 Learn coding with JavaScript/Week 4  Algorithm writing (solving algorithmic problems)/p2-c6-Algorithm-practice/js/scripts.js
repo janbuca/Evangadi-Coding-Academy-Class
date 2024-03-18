@@ -242,4 +242,7 @@ let info = `The ${personName} is ${personAge}`;
 
 console.log(info);
 
+// destructor assignment 
+
+
 
