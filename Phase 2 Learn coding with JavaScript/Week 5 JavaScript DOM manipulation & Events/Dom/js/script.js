@@ -157,8 +157,18 @@ parent1.id = "numbers";
 console.log(parent1.id);
 
 // 3. tabIndex property
-// console.log(parent1.tabIndex);
-// parent1.tabIndex = 5;
+console.log(parent1.tabIndex);
+parent1.tabIndex = 5;
+
+// 4 hasAttribute () Method
+console.log(parent1.hasAttribute("href"));// false
+console.log(parent1.hasAttribute("id")); // true
+
+// 5. getAttribute () Method
+console.log(parent1.getAttribute("id"));
+
+// 6. setAttribute () Method
+parent1.setAttribute("href", "#contact");
 
 
 
