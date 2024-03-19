@@ -29,9 +29,54 @@ let firstList = document.getElementById("one");
 // console.log(queryElement[0]);
 // console.log(document.querySelectorAll(".red"));
 
-console.log(document);
-// DOM node is represent everything
-console.log(document.body.childNodes);
+// console.log(document);
+// // DOM node is represent everything
+// console.log(document.body.childNodes);
 
-// DOM element represent - html element
-console.log(document.body.children);
+// // DOM element represent - html element
+// console.log(document.body.children);
+
+// 1. firstChild
+console.log(document.getElementById("numberList").firstChild);
+
+// 2. lastChild
+console.log(document.getElementById("numberList").lastChild);
+
+// 3. parentElement
+console.log(document.getElementById("one").parentElement);
+
+// 4. previousElement
+console.log(document.getElementById("three").previousElementSibling)
+
+// 5. nextElement
+console.log(document.getElementById("two").nextElementSibling);
+
+// 6. nth-child
+console.log(document.querySelectorAll('.red:nth-child(3)'));
+
+
+/*
+JavaScript Console
+    - log
+    - error
+    - info
+    - debug
+    - clear
+    - time
+ */
+// - log
+console.log("Selam Selam");
+console.error("This one of the error message!");
+console.info("This one of the information message!");
+console.debug("This one of the debugging  message!");
+
+// - clear
+//  console.clear();
+ 
+
+// let startTime = performance.now();
+
+// setTimeout(() => {
+//     let endTime = performance.now();
+//     let timeTaken = (endTime - startTime) / 1000 
+
