@@ -139,7 +139,28 @@ parent1.className = "blue pink"
 console.log(parent1.classList);
 parent1.classList.add("Violet");
 
-// 
+// remove classList
+parent1.classList.remove("pink")
+
+
+
+// contains() Method
+console.log(parent1.classList.contains("Yellow"));
+
+// toggle() Method
+parent1.classList.toggle("Blue");
+console.clear()
+
+// 2. id property
+console.log(parent1.id);
+parent1.id = "numbers";
+console.log(parent1.id);
+
+// 3. tabIndex property
+// console.log(parent1.tabIndex);
+// parent1.tabIndex = 5;
+
+
 
 
 
