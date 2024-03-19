@@ -82,18 +82,34 @@ setTimeout(() => {
     let endTime = performance.now();
     let timeTaken = (endTime - startTime) / 1000  ; // in seconds
     
-    console.timeEnd('My Timer');
-    console.log(`The Time taken is ${timeTaken} Seconds`);
+    // console.timeEnd('My Timer');
+    // console.log(`The Time taken is ${timeTaken} Seconds`);
 }, 2000);
 
-console.time('My Timer');
+// console.time('My Timer');
 
 console.time();
 
 function time(params) {
     
 }
-console.timeEnd();
+// console.timeEnd();
 
 console.debug("Something will be Sone error can be solved");
+ console.clear();
+
+ // 1. createElement () Method
+ let liElm = document.createElement("li");
+ console.log(liElm);
+
+ // appendChild () Method
+ let parent = document.getElementById("numberList");
+ parent.appendChild(liElm);
+ liElm.innerText = "Hi EveryOne";
+
+ // 3. prepend () Method
+ parent.prepend(liElm);
+
+ // 4. innerHTML () Method
+ 
 
