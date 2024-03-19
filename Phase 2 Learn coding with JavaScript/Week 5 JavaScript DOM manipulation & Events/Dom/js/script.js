@@ -55,6 +55,8 @@ console.log(document.getElementById("two").nextElementSibling);
 console.log(document.querySelectorAll('.red:nth-child(3)'));
 
 
+// Altering values(Working with html content)
+
 /*
 JavaScript Console
     - log
@@ -74,9 +76,24 @@ console.debug("This one of the debugging  message!");
 //  console.clear();
  
 
-// let startTime = performance.now();
+let startTime = performance.now();
 
-// setTimeout(() => {
-//     let endTime = performance.now();
-//     let timeTaken = (endTime - startTime) / 1000 
+setTimeout(() => {
+    let endTime = performance.now();
+    let timeTaken = (endTime - startTime) / 1000  ; // in seconds
+    
+    console.timeEnd('My Timer');
+    console.log(`The Time taken is ${timeTaken} Seconds`);
+}, 2000);
+
+console.time('My Timer');
+
+console.time();
+
+function time(params) {
+    
+}
+console.timeEnd();
+
+console.debug("Something will be Sone error can be solved");
 
