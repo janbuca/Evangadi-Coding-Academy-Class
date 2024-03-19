@@ -124,6 +124,23 @@ parent.removeChild(childElement);
 let three = document.getElementById("three");
 parent.insertBefore(liElm, three);
 
+console.clear();
+
+let parent1 = document.getElementById("numberList");
+console.log(parent1.className);
+
+// 1. ClassName property
+parent1.className = "yellow";
+
+// multiple class
+parent1.className = "blue pink"
+
+// classList() Method
+console.log(parent1.classList);
+parent1.classList.add("Violet");
+
+// 
+
 
 
 
