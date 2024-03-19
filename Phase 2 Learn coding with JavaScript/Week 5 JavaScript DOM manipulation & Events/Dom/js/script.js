@@ -111,5 +111,19 @@ console.debug("Something will be Sone error can be solved");
  parent.prepend(liElm);
 
  // 4. innerHTML () Method
- 
+ liElm.innerHTML = "<i>Selam new?</i>"
+
+//  // 5. textContent () Method
+//  liElm.textContent = "<h3>Pis New</h3>"
+
+// 6. removeChild () method
+let childElement = document.getElementById("two");
+parent.removeChild(childElement);
+
+// 7. insertBefore() Method
+let three = document.getElementById("three");
+parent.insertBefore(liElm, three);
+
+
+
 
