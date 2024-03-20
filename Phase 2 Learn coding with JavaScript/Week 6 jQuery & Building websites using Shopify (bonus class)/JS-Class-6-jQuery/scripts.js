@@ -330,3 +330,10 @@ function formSubmitChecker(e) {
 		
 	}
 }
+
+/*
+ Advantage of jQuery
+	- cross browser compatibility
+	- jQuery is to lear
+	- Simple selecting and updating method
+*/
