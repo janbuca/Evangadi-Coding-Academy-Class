@@ -174,6 +174,31 @@
   // var converted = minuteToSecondConverter(45);
   // console.log(converted);
 
+  // Factorial Calculator
+
+  // Write a function named factorialCalculator that takes in a single parameter num which will be a non-negative integer. This function
+  // Write a function named factorialCalculator that calculates the factorial of a given number n.
+  // A factorial of a non-negative integer n is the product of all positive integers less than or equal to n.
+  // For example, the factorial of 5 is denoted by 5! =  5 × 4 × 3 ×  2 × 1 = 120.
+
+  // Examples:
+  // factorialCalculator(0) ➞ 1
+  // factorialCalculator(5) ➞ 120
+  // factorialCalculator(7) ➞ 5040
+
+  const factorialCalculator = (n) => {
+    let result = 1;
+    for (let i = 2;   i <= n; i++) {
+      result *= i;
+    }
+    return result;
+  };
+
+  console.log(factorialCalculator(0));
+  console.log(factorialCalculator(5));
+  console.log(factorialCalculator(7));
+
+
   function add(a, b) {
     if (isNaN(a) || isNaN(b)) {
       return "Please provide a number";

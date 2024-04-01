@@ -1,0 +1,38 @@
+- What is Dom?
+- Dom properties 
+- Dom selectors 
+- single element selectors
+- getElementById()
+- querySelectors()
+- Multiple element selectors
+- getElementByClassName()
+- getElementByTagName()
+- querySelectorAll()
+
+- Dom Traversing
+- Dom Traversing Example
+- Dom create Element 
+Dom Append Element
+- Dom delete Element Dynamically
+- Dom replace Element Dynamically 
+- Dom modifying Element Attribute
+
+- addEventListener usage
+- addEventListener 'event' parameter
+- Double click event 
+- Mouseup & mousedown event 
+- mouseenter & mouseleave event
+- mouse position: mousemove event
+- keyboard event 
+- Dom form input value
+- preventDefault()
+- Keybord event 'keydown'
+- Keybord event 'keyup'
+- keybord event 'keypress'
+- fucus, cut, blur & paste event 
+- input event
+
+- event bubbling intro
+- event delegation intro
+- event bubbling with Example
+- event delegation with Example 

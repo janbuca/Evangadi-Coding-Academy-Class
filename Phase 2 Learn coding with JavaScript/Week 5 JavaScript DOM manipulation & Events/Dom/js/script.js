@@ -173,15 +173,32 @@ parent1.setAttribute("href", "#contact");
 // direct without the css
 let parent2 = document.getElementById("numbers");
 
-parent2.style.backgroundColor = "blue";
-parent2.style.fontFamily = "'Arial', sans-serif";
-parent2.style.color = "white";
-parent2.style.border = "black double 20px";
-parent2.style.borderRadius = "8px";
+// parent2.style.backgroundColor = "blue";
+// parent2.style.fontFamily = "'Arial', sans-serif";
+// parent2.style.color = "white";
+// parent2.style.border = "black double 20px";
+// parent2.style.borderRadius = "8px";
 
 
 
 // 7. textContent Property
+
+console.clear();
+
+let parent3 = document.getElementById("numbers");
+
+function changeColor() {
+    techParent.style.color = "blue";
+    techParent.style.backgroundColor = "yellow";    
+}
+
+
+function removeColor(){
+    techParent.style.color = "";
+    techParent.style.backgroundColor = "";
+}
+
+
 
 
 
