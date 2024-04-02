@@ -7,6 +7,26 @@
   </head>
   <body>
     <h1>More Algorithm Practice</h1>
+    <p>This is a collection of programming problems and coding exercises for practicing algorithms.</p>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#problems">Problems</a> |
+      <a href="#exercises">Exercises</a> |
+      <a href="/about/">About</a>
+    </nav>
+
+    <!-- Problems Section -->
+    <section id="problems">
+      <h2>Problems</h2>
+
+      {% for problem in site.problems %}  
+        <article>
+          <header>
+            <h3><a href="{{ problem.url }}">{{ problem.title }}</a></h3>
+          </header>
+          
+          <div class="description"> 
 
     <script src="js/scripts.js"></script>
   </body>
