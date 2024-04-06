@@ -1,0 +1,288 @@
+What is a webpage?
+```````````````````````
+    - By definition, a webpage is properly tagged HTML text document
+
+    - The main purpose of a webpage is to display the text information that is included in the document in 
+    a well organized and visually meaningful way to the user.
+
+    - As a web page is simply a text document, we would need help to create some useful visual representation of the text.
+    A software that helps us create a useful visual representation is called a browser. this means a web page with out
+    the help of a browser is as helpless as a text document.
+
+The browser
+`````````````
+    - The main role of a web browser is to create a visual representation of the text document based on the tag used
+    on the text document. The text document with the HTML tags included in it is called the HTML document. This process
+    of creating the visual representation the browser follows is called rendering.
+
+    - For the browser to be able to do its to do its job, it needs to get the HTML tagged text first.
+     When the HTML file is saved locally, all the browser needs is a way to locate this resource file containing the HTML.
+     The way we achieve this is by giving the URL (Uniform Resource Locator) to the browser. 
+     since we are on a local computer this URL is just the path to the file.
+     path is structured by the operating system on the computer
+
+    - If the file that is required is a javascript file, it means the browser needs help to understand the code on the javaScript file.
+     
+    - Every browser has a javaScript engine that takes our javaScript code and converts it in ti something
+     that the browser can be understand.
+        IE - Chakra
+        Chrome - v8
+        firefox - spidermonkey
+        safar - javaScriptCore
+
+    - Here is a diagram showing the interactions of an HTML file,
+    a CSS file and a javaScript file with the browser
+
+Why do we even need javaScript then?
+`````````````````````````````````````
+    The main reason we include javaScript on our HTML is to add interaction of how it should responded to an action taken on
+    thr browser. In other words, to add interactivity on the page.
+
+How to add javaScript on HTML
+``````````````````````````````
+    - The <script> tag
+    ````````````````````
+
+    - Recommended place to add the <script> tag
+    ``````````````````````````````````````````````
+        It is usually recommended to add script at the button
+
+        You can also used the "defer" attribute to tell the HTML parser to load the script after it finding loading the other HTML element.
+            - "defer" is an attribute that is add on the HTML 4 just for this purpose
+                - ex.
+                    <script src="./someJsFile.js" defer></script>
+
+How do HTML and javaScript they work together?
+````````````````````````````````````````````````
+    - HTML is mark up language. javaScript is a programming language the usually deals with objects.
+    - Dom is the answer for that.
+
+Understand of Dom
+`````````````````````
+    Why do we have understand of Dom
+    ``````````````````````````````````
+        - Because, your job as a javaScript front end developer is to select and update the Dom element 
+        when interact with a website. Dom is what lets you do this using javaScript.
+
+        - Selecting means: Locate the element you want to work with
+        - Updating means: Interact with the text of the element, attribute of the element or with its element
+
+        This is where you apply your basic programming skills
+
+        - Note :
+            - Dom is not part of javaScript
+            - Dom is not HTML neither
+            - Dom is a set of rules where browser use to recrate an HTML code in a form of an objects.
+            then they use the structure of that objects to render the html code and display it on the browser
+            - javaScript interacts with the created Dom object 
+
+    What is the Dom object?
+    ````````````````````````
+        Definition 1 :
+            - The Dom is a language-agnostic structure implemented by browser to allow for web scripting language
+            like javaScript, to access, modify, and update the structure of the html page in a organized way.
+
+        Definition 2 :
+            - The HTML Dom is a standard for how to get, change, add or delete html element.
+
+        Definition 3:
+            - The HTML Dom is a logical tree-like model that organized a web page's html document as an object.
+
+    The Dom Tree 
+    `````````````
+        Diagram :
+            - link
+
+        When a browser reads HTML code, whenever it encounters an html element like html, body, div, etc
+        it creates an object called a Node. Eventual all of the html element will be converted in to object
+
+        After the browser has created nodes from html document,it has to create a tree-like structure of these Node object.
+        Since our html element in the html file are nested inside each other, the browser replicates that using a tree-link structure Node object.
+
+        javascript doesn't understand what is Dom is, it is not the part of javaScript specification, Dom is a hight-level web 
+        API proved by the browser to efficiently render a webpage and expose it publicly for thr developer to dynamically manipullay
+        Dom element for various purposes.
+
+        Structure of a Dom tree
+            e.g 1:
+                - link
+            
+            e.g 2:
+                - link
+        As the name indicates, this is representation of a page as an object
+
+        The Dom tree contains four kinds of nodes in it everything that makes up your Dom is more generically known as nodes.
+            ** Every Node is an object on its own
+
+        1: Document Node
+        ````````````````````
+            - Represents the entire page
+            - Contains multiple element in it
+            - If you want to access any other node, you would have to pass through the Document Node
+            - The document object has multiple methods that you can use to look and access a specific element with the Dom object.
+
+        2: Element Node
+        ````````````````
+            - Element of node are created to mode each html tag we use in our html code.
+            - Each of them are model as objects
+                e.g element:
+                    <html>
+                    <head>
+                    <body>
+                    <h2>
+                    <div>
+                    <p>
+                    <a>
+                    etc................
+
+            - Each of these Element object have methods in them that you can use to access and alter the text and attributes in them.
+
+        3: Attribute Node
+        `````````````````````
+            - As we have before, html element can have multiple attributes.
+
+
+Manipulating Dom
+````````````````````
+    Manipulating Dom involves two steps
+        1: Finding/selecting the element we want to work with.
+        2: Altering the text or attribute of that element.
+
+    - What makes all this possible is the "document" object.
+        The 'document' object in javaScript is the door to the Dom structure. this is the name of the javaScript objects
+        that contains all the methods and properties to help us access and manipulates the Dom element.
+
+            The 'document' object allows us to access the root node of the Dom tree. You can access the other child nodes of the
+            Dom as properties of the document object.
+
+                E.g:
+                    if you want to access the body node, you can access it as document.body
+
+    Step 1: Selecting Element
+    ``````````````````````````
+        - Selecting can also be divided in to three types
+
+            1: Select an individual element
+                E.g :
+                    Finding one specific <div> element.
+
+            2: Select multiple element
+                E.g :
+                    Finding all <div> element with some similar property.
+
+            3: Traversing between multiple element
+                E.g :
+                    Finding a <p> element with in particular <div>
+            
+        Selecting an individual element
+        ````````````````````````````````````
+            - The are three common ways to select the specific element
+                1: Using the getElementById() method
+                    E.g :
+                        -
+                
+                2: Using the querySelector() method
+                    E.g :
+                        -
+
+                3: By traversing from one element from the next
+                    E.g :
+                        - 
+
+        Selecting multiple element
+        `````````````````````````````
+            - The are three common ways to select the specific element
+                1: Using the getElementByClassName() method
+                    E.g :
+                        -
+
+                2: Using the getElementByTagName() method
+                    E.g :
+                        -
+
+                3: Using the querySelectorAll() method
+                    E.g :
+                        -
+
+        Selecting one element from a nodeList:
+        ```````````````````````````````````````
+            1: Using the item() method
+                E.g :
+
+            2: Using the Array syntax 
+                E.g :
+
+            - Repeating action for all of nodeList items
+                E.g :
+
+        Traversing between multiple element
+        ``````````````````````````````````````
+            You can traverse from one element to another by using the following properties
+
+                - ParentNode
+                    Ex:
+
+                - PreviousElementSibling
+                    Ex:
+
+                - firstElementChild
+                    Ex:
+
+                - lastElementChild
+                    Ex:
+
+                
+    Step 2: Altering values and properties
+    `````````````````````````````````````````
+        Accessing and Altering a specific text node
+        ````````````````````````````````````````````
+            - You use the property 'nodevalue' to access or update content of a text node
+            - textContent is another way of updating text
+
+            Using textContent to access values
+                - Ex:
+
+        Working with HTML content
+        ```````````````````````````
+            - This is when you want to add, update or remove an entire block of html code from your page
+            - You use the following properties and methods for that
+                - createElement()
+                - innerHTML
+                - textContent
+                - appendChild()
+                - removeChild()
+
+        Working with attributes
+        `````````````````````````````
+            - This is when you want ro add, update or remove the attribute value of an element
+            - You use the following properties and method for that
+                - className
+                - classList
+                - id 
+                _______________________
+                - hasAttribute()
+                - getAttribute()
+                - setAttribute()
+                - removeAttribute()
+
+        Working with inline styling
+        `````````````````````````````
+            changing CSS values with the style property
+
+            CSS style to javaScript style
+                - link
+
+                
+
+
+
+
+    
+
+
+
+        
+
+
+        
+
