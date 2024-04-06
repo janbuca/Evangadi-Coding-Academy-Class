@@ -1,0 +1,217 @@
+JavaScript Events
+``````````````````
+    What are javaScript Events
+    ```````````````````````````
+        Events in javaScript term are what happens on a browser when one browser.
+
+        The browser registers every that is happing on it.
+
+        Your job as a javaScript developer is to write a script that responds to an event that happens on the browser.
+        this is what makes website interactive. 
+
+        when one interact with a web page, that interaction is registered as an event on the browser.
+        In response to that event, the script is bound with that event changes something on the web page.
+        which creates interactivity  of the webpage.
+
+        Note :
+            - One key concept to understand in here is, you prepare the scripts in response to potential event that 
+            could happen on your websites.
+
+    Event Types
+    ``````````````
+        Any of these event can be used to trigger a function in your javaScript code
+            - list of all javaScript events.
+                link : https://www.w3schools.com/jsref/event_obj_textinput.asp
+
+    UI/Window Events
+    ````````````````
+        - These events occur when users interact with the browser's user interface (window)
+
+            load -- when the browser finding loading a page
+            Unload -- when a page is unloading 
+            error -- when browser encounters a javaScript error
+            resize -- when Changing the size of a browser.
+            Scroll -- when user scroll up or down  the page.
+
+    Key Board Events
+    ````````````````
+        - keydown  -- when the user first presses a key
+        - keyup    -- A key is released
+
+    Mouse Events
+    ``````````
+        - click     -- User presses and releases a button over the same element(clicks the mouse button)
+                      if you want to track where the mouse was clicked use onclick instead of onmousedown.
+        - dblclick  -- User presses and releases a button twice (User double-clicks the mouse button)        
+        - mouseover -- User moves the mouse over an element (A cursor enters an element) 
+        - mouseout  -- User moves the mouse off an element  (A cursor exits an element)
+        (
+        - mousedown -- User presses the mouse button
+        - mouseup   -- User releases the mouse button
+        - contextmenu -- right click happens
+        - mousemove -- The mouse moves over the document
+        )
+
+
+    Form Events 
+    ````````````
+        focus / focusin -- Element gains focus 
+        blur / focusout-- Element loses focus
+        submit -- User submits a form
+        select -- User submit a form (Using a button or a key) (text is selected in an input field)
+        change -- User copies content content from a from filed(The value of an <input>, <select> or <textarea> has been changed)
+        cut --  User cuts content from a form filed or The user has cut text from an input field
+        copy -- User copies content from a form filed or User copies content from a form field or the user has copied text from an input filed
+        paste -- User pastes content into a form filed or User pastes content into a form field or the user has pasted text into an input field
+        
+    
+
+
+    Event Handling
+    ```````````````
+        When a user interact with the dom objects on a page, there are three steps involved in triggering a script 
+        associated with an event, These steps together are called event handling.
+
+            1. Select an element to bind a response with
+                - This step is identifying an element  where you want to respond when an event occurs on it.
+
+            2. Bind an event
+                - This is to identify which specific event you want to respond to
+
+            3. Attach a script
+                - This is to instruct the web browser what to do when a specific event happens
+
+        Note :
+            - The script that you want ro bind with an event needs to be written first
+
+        Three ways to bind an event
+        ````````````````````````````
+            1. HTML Event handlers
+            `````````````````````````
+                - This approach is considered a bad practice
+
+                - Set of attribute added to the element they should respond  to an event 
+                    link
+
+                - Syntax :
+                    onclick = "changeBackground()"
+
+            2. Traditional Dom event handling
+            ```````````````````````````````````
+                - You can separate your JS and HTML
+                - You can only attach a single function to an event
+
+                Steps:
+                    - First, select the element you want to bind an event with 
+                    - Then bind an event with it
+                    - Finally attach a function on the event
+
+                Syntax:
+                    element.onevent = functionName;
+                    Notice that the event name is precede by "on"
+
+            3. Dom Level 2 Event listeners
+            ``````````````````````````````````
+                - The favored way of handling events
+                - Allows one event to trigger multiple functions
+
+                Syntax:
+                    element.addEventListener(eventname,functionName);
+
+                // How to bind the enter key with a function
+                $(document).keypress(function (e) {
+                    if (!e) e = window.event;
+                    if (e.keyCode == '13') {
+                        alert('You pressed a enter!');
+                    }
+                });
+
+            Halt default behaviors
+            ````````````````````````
+                - There are scenarios where you want the default html behaviors not to take effect on the browser.
+                - For Example :
+                    you don't want the submit button to submit the form when required filled are not filled out.
+
+                - These are the methods that you can use to step these default html behaviors.
+
+                    - preventDefault()
+                    - stopPropagation()
+
+                    - prevent link from propagation
+
+        
+
+
+    Practice Exercise for the weeks
+    ```````````````````````````````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+            1. Load Event: Occurs when the DOM (Document Object Model) and CSSOM (CSS Object Model) are loaded.
+            1. Load Event: Occurs when the DOM (Document Object Model) and CSSOM (CSS Object Model) are loaded.
+        1. Load Event: Occurs when the document has finished loading.
+             This event is fired once for each window or frame in a page.
+             
+        2. Unload Event: Occurs when the document or a frame is unloaded.
+           This event is fired once per window or frame.
+
+        3. Error Event: An error occurred while processing JavaScript.
+         
+        4. Keyboard and Mouse Events:
+            These events occur when users interact with keyboard or mouse.
+               Examples : onclick , onmouseover etc..
+                  
+        5. Form Events:
+            When user performs some action related to form like submit or reset.
+               Example : onsubmit .
+
+        6. Window Events:
+            These events occurs when there is change in state of the browser window.
+               Examples : onresize , onscroll .
+
+        7. HTMLElement Events:
+            These events occurs when there is a change in HTML element itself.
+               Example : onchange .
+
+    Binding Event to Elements
+    ``````````````
+        
+        There are two types of events:
+            1. UI Events - When the user interacts with your webpage, such as clicking or typing into an input field.
+            1. User-generated events - such as click, scroll etc. These events occur due to user interaction with the webpage like clicking a button
+            1. UI Events - When the user interacts with the webpage, such as clicking or typing into an input field.
+            1. Event Listener - This is the way to listen for an event, and respond to it.
+            2. Event Object - This carries information about the event such as where/when/how it happened.
+
+        When an event occurs the following steps happen:
+            - The browser looks at all elements with event listeners registered for that type of event.
+            - If there is a match between the element and the event then the code inside the listener function gets executed.
+            - If there is an element with a listener for that event, the browsers calls a function associated with that listener.
+            - If there is an element with a listener for that event, the browsers runs the function associated with that listener.
+            - If there is an element with a listener for that event, the browsers runs the function associated with that listener.
+        1. Event Types 
+        
+           
