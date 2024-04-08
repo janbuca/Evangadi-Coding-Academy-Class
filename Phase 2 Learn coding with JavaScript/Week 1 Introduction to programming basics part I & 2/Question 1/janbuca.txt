@@ -1,0 +1,93 @@
+Before we start 
+    - Next phase schedule
+    - The next three weeks
+
+1.1 Introduction to phase 2
+
+    - Group work is key to Success 
+
+1.2 Why do we need to learn javascript?
+
+    HTML - Set the webpage structure
+    CSS - styles the webpage 
+    JS - controls the reaction based on the the user's action
+
+    Uses of JS
+        - Adds interactivity to the webpage
+        - Retrieves data from the webpage that is entered by the user
+
+        - Brings data from the database and display it on the webpage (Node.js)
+        - Serves a webpage from a servers (Node.js)
+
+        - Makes a webpage faster and robust through a library (React.js)
+
+1.3 Definition of javascript:
+    - a language to develop interactive web pages
+
+    - Interactive website
+        - responds/reacts to the user/client according their action.
+
+1.4 Definition of javascript a programming language to instruct our computer
+
+    Computer language
+
+        - are language that are used to communication with a computer.
+
+        - It is divided in to 3
+
+            1. Machine language (Low level language)
+                - is a collection of 0 and 1 (binary)
+                - computers only understand machine language
+
+                i.e - 111001 00101011 1010
+
+            2. Assembly language
+                - uses mnemonic (abbreviation for an operation) codes
+                    - Example of mnemonic codes
+                        Add -> addition
+                        Sub -> subtraction
+                        Mul -> multiply
+
+                    - i.e Add 111001 1010
+
+            3. Programming language (High level language)
+                - A set of rules that are used to instruct a computer to perform specific tasks
+
+                - Understand by human
+                    - Example of High level language
+                        - javascript
+                        - C
+                        - C++
+                        - Java 
+                        - Python
+                    
+                    - i.e 57 - 10
+
+
+    How does programming language instructs computers?
+        - It instructs it through machine language
+
+        - Programming language ---> Translator program ---> Machine language
+
+    what are translator program 
+        - Converts programs that are written in human readable format into machine understand format 
+
+        - There are 3 types of translator programs (converter)
+
+            1. Assembler
+                - Assembly language <-----> Assembler <----> Machine language
+
+            2. Interpreter
+                - High level language <----> Interpreter <-----> Machine language
+
+                - It translates and executes the program line by line 
+
+                - Example of interpreted language
+                    - Python, javascript, Ruby, Php perl
+
+            3. Compiler
+                - High level language <-----> Compiler -----> Machine language
+
+                i.e 45 + 14 ----> Compiler -----> 111001 00101011 1010
+
+                - It translates the whole program at once, and it generates the object code along while a list of errors
